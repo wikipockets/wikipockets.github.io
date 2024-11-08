@@ -1,57 +1,156 @@
 ﻿<!DOCTYPE html>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
-    <title>Wikipocket's githubIO Page</title>
+    <title>Stephen's Home Page</title>
 
     <style>
         body {
-            background-color: rebeccapurple;
-            color: aquamarine;
+            background-color: rgb(29, 10, 48);
+            color: rgb(122, 238, 199);
             font-family: 'Tacoma', sans-serif;
-            margin: 0%;
-            padding: 0%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
         }
 
+        hr {
+            box-sizing: border-box;
+            border:  medium;
+            height: 2px;
+            background-color: rgb(122, 238, 199);
+            width: 80%;
+        }
+
+        /* Container for Centered Layout */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+
+        /* Header Styling */
         header {
-            background-color: rebeccapurple;
+            background-color: rgb(24, 8, 40);
             padding: 20px;
             text-align: center;
-            
+            min-width: auto;
+            width: 80%;
+            box-sizing: border-box;
+            border-radius: 8px;
         }
 
         h1 {
             margin: 0;
+            font-size: 2em;
         }
 
-        header p {
-            margin: 0;
-
+        .tagline {
+            font-style: italic;
+            font-size: 1.2em;
+            margin-top: 5px;
+            color: rgb(178, 234, 222);
         }
 
-        section {
-            padding: 50px 20px;
+        main {
+            /* flex-grow: 1; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .main-content {
+            background-color: rgb(36, 12, 60);
+            border-radius: 8px;
+            /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); */
+            padding: 30px;
             text-align: center;
         }
 
+        h2 {
+            margin-top: 0;
+            font-size: 1.8em;
+            color: rgb(178, 234, 222);
+        }
 
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: rgb(24, 8, 40);
+            color: rgb(122, 238, 199);
+            text-align: center;
+            width: 80%;
+            border-radius: 8px;
+            justify-content: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 8px 0;
+        }
+
+        footer p {
+            margin: 8px 0;
+        }
+
+        footer a {
+            color: rgb(122, 238, 199);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        footer a:hover {
+            background-color: rgb(36, 12, 60);
+            text-decoration: underline;
+        }
 
     </style>
-
 </head>
-        <body>
-        <h1>Stephen's Site</h1>    
-        <p>This site will be designed to be a landing page for future showcase of projects.</p>
-        </body>
 
+<body>
+    <header>
+        <section class="container">
+            <h1>Stephen Johnson</h1>
+            <p class="tagline">Web Development Portfolio and Class Projects</p>
+        </section>
+    </header>
+    <hr>
+    <main>
+        <section class="container main-content">
+            <h2>Home Page</h2>
+            <p>Welcome to my home page for ITIS3135 Web Development. Here, you’ll find links to my coursework, projects, and resources.</p>
+        </section>
+    </main>
+    <hr>
     <footer>
-        <p>Useful Links</p>
-        <nav>
-            <a href="itis3135/"><b>ITIS 3135</b></a>
-            <a href="https://www.github.com/wikipockets"><b>Github Profile</b></a>
-            
-        </nav>
+        <section class="container">
+            <section class="footer-links">
+                <a href="https://github.com/wikipockets">GitHub</a> • 
+                <a href="https://webpages.charlotte.edu/sjohn388">CLT Web</a> • 
+                <a href="https://wikipockets.github.io">GitHub.io</a> • 
+                <a href="itis3135/">ITIS3135</a> • 
+                <a href="https://www.freecodecamp.org/wpockets">FreeCodeCamp</a> • 
+                <a href="https://www.codecademy.com/profiles/wikipockets">Codecademy</a> • 
+                <a href="https://www.linkedin.com/in/johnsgr1476/">LinkedIn</a>
+            </section>
+            <p>&copy; 2024 Haptic Live Solutions LLC. All Rights Reserved. • 
+                <a href="../johnsoncreatives.com/index.html">Designed by Johnson Creatives</a>
+            </p>
+        </section>
     </footer>
+</body>
+
 </html>
