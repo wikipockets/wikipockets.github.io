@@ -1,0 +1,89 @@
+/* Base Styles for MS-DOS Look */
+body {
+    background-color: black;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Command Line Interface */
+.terminal {
+    width: 90%;
+    max-width: 800px;
+    padding: 10px;
+    border: 2px solid #00FF00;
+    box-shadow: 0 0 10px #00FF00;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.output {
+    margin: 5px 0;
+    white-space: pre-wrap;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.prompt {
+    margin-right: 5px;
+}
+
+input[type="text"] {
+    background-color: black;
+    color: #00FF00;
+    border: none;
+    outline: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    width: 70%;
+    caret-color: #00FF00;
+}
+
+input[type="text"]::placeholder {
+    color: #008000;
+}
+
+/* Blinking Block Cursor */
+@keyframes blink {
+    0% { background-color: #00FF00; }
+    50% { background-color: transparent; }
+    100% { background-color: #00FF00; }
+}
+
+.cursor {
+    display: inline-block;
+    width: 8px;
+    height: 1.2em;
+    background-color: #00FF00;
+    margin-left: -8px;
+    animation: blink 1s steps(2) infinite;
+}
+
+a {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #00FF00;
+    text-align: center;
+    font-size: 0.8em;
+    width: 100%;
+    box-sizing: border-box;
+}
