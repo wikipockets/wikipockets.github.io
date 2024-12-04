@@ -42,7 +42,7 @@ hr {
 
 /* Container for Centered Layout */
 .container {
-    width: 80%;
+    width: auto;
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box;
@@ -54,7 +54,8 @@ header {
     padding: 20px;
     text-align: center;
     min-width: auto;
-    width: 80%;
+    width: auto;
+    max-width: fit-content;
     box-sizing: border-box;
     border-radius: 8px;
     margin-top: 26px;
@@ -63,6 +64,7 @@ header {
 h1 {
     margin: 0;
     font-size: 2em;
+
 }
 
 .tagline {
@@ -89,9 +91,10 @@ main {
 }
 
 h2 {
-    margin-top: 0;
+    margin-top: 10;
     font-size: 1.8em;
     color: rgb(178, 234, 222);
+    padding: 10px;
 }
 
 .page-info {
@@ -108,9 +111,10 @@ footer {
     background-color: rgb(24, 8, 40);
     color: rgb(122, 238, 199);
     text-align: center;
-    width: 80%;
+    width: auto;
     border-radius: 8px;
     justify-content: center;
+
 }
 
 .footer-links {
