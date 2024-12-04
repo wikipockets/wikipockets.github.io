@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Function to dynamically load components
-    const loadComponent = (placeholderId, componentPath) => {
+    function loadComponent(placeholderId, componentPath) {
         fetch(componentPath)
             .then((response) => {
                 if (!response.ok) {
@@ -12,12 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.getElementById(placeholderId).innerHTML = data;
             })
             .catch((err) => console.error(err));
-    };
+    }
 
     // Load Header and Footer
     loadComponent("header-placeholder", "../components/header.html");
     loadComponent("footer-placeholder", "../components/footer.html");
-    
+    loadComponent("terminal-placeholder", "/scripts/itishome.js");
 
      // Dynamically load itishome.js
      const script = document.createElement("script");
