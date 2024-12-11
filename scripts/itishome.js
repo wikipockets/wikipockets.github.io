@@ -7,13 +7,17 @@ document.addEventListener('DOMContentLoaded', () => {
         'ls': "Available commands:\n- about\n- education\n- links\n- exit",
         'about': "Stephen Johnson\nStudent at UNC Charlotte, studying Computer Science with a concentration in Software Engineering.",
         'education': "UNC Charlotte - B.S. in Computer Science\nAssociation for Computing Machinery (ACM) member\nSelf-taught web developer.",
-        'links': "Links:\n- home\n- hobby\n- johnsoncreatives\n ~ Enter a link name to navigate to the page.",
+        'links': "Links:\n- home\n- introduction\n- about\n- contract\n- BYO-Intro\n- hobby\n- johnsoncreatives\n ~ Enter a link name to navigate to the page.",
         'exit': "Exiting the terminal... Please close the tab or navigate away."
     };
 
     // Link mappings for navigation
     const links = {
         'home': 'https://webpages.charlotte.edu/sjohn388/itis3135/',
+        'introduction': 'https://webpages.charlotte.edu/sjohn388/itis3135/introduction.html',
+        'about': 'https://webpages.charlotte.edu/sjohn388/itis3135/about.html',
+        'contract': 'https://webpages.charlotte.edu/sjohn388/itis3135/contract.html',
+        'BYO-Intro': 'https://webpages.charlotte.edu/sjohn388/itis3135/BYO-Intro.html',
         'hobby': 'https://webpages.charlotte.edu/sjohn388/itis3135/hobby/index.html',
         'johnsoncreatives': 'https://webpages.charlotte.edu/sjohn388/itis3135/johnsoncreatives.com/index.html'
     };
