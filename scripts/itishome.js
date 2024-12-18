@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'ls': "Available commands:\n- about\n- education\n- links\n- exit",
         'about': "Stephen Johnson\nStudent at UNC Charlotte, studying Computer Science with a concentration in Software Engineering.",
         'education': "UNC Charlotte - B.S. in Computer Science\nAssociation for Computing Machinery (ACM) member\nSelf-taught web developer.",
-        'links': "Links:\n- home\n- introduction\n- about\n- contract\n- BYO-Intro\n- hobby\n- johnsoncreatives\n ~ Enter a link name to navigate to the page.",
+        'links': "Links:\n- home\n- introduction\n- about\n- contract\n- BYO-Intro\n- hobby\n- johnsoncreatives\n       ~ Enter a link name to navigate to the page.",
         'exit': "Exiting the terminal... Please close the tab or navigate away."
     };
 

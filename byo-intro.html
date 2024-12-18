@@ -8,6 +8,8 @@
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
     <script defer src="scripts/scripts.js"></script>
     <script defer src="scripts/survey.js"></script>
+    
+    
 </head>
 <body>
 
@@ -17,50 +19,63 @@
         <h2>~Build Your Own Introduction~</h2>
         <h3>Welcome to BYO-Intro, please fill out the form below!</h3>
 
-        <form id="introForm">
+        <form id="introform">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" value="Stephen Johnson" required><br>
+            <input type="text" id="name" name="name" value="Stephen Johnson" required>
+            <br>
 
             <label for="mascot">Mascot:</label>
-            <input type="text" id="mascot" name="mascot" value="Space-Time Jester" required><br>
+            <input type="text" id="mascot" name="mascot" value="Space-Time Jester" required>
+            <br>
 
             <label for="image">Upload Image (PNG or JPG):</label>
-            <input type="file" id="image" name="image" accept=".png, .jpg, .jpeg" required><br>
+            <input type="file" id="image" name="image" accept=".png, .jpg, .jpeg" required>
+            <br>
 
-            <label for="imageCaption">Image Caption:</label>
-            <input type="text" id="imageCaption" name="imageCaption" value="A funny space-time jester" required><br>
+            <label for="imagecaption">Image Caption:</label>
+            <input type="text" id="image-caption" name="image-caption" value="A funny space-time jester" required>
+            <br>
 
-            <label for="personalBackground">Personal Background:</label>
-            <textarea id="personalBackground" name="personalBackground" required>Self-taught web developer.</textarea><br>
+            <label for="personalbackground">Personal Background:</label>
+            <textarea id="personal-background" name="personal-background" required>Self-taught web developer.</textarea>
+            <br>
 
-            <label for="professionalBackground">Professional Background:</label>
-            <textarea id="professionalBackground" name="professionalBackground" required>Student at UNC Charlotte studying Computer Science.</textarea><br>
+            <label for="professional-background">Professional Background:</label>
+            <textarea id="professionalbackground" name="professional-background" required>Student at UNC Charlotte studying Computer Science.</textarea>
+            <br>
 
-            <label for="academicBackground">Academic Background:</label>
-            <textarea id="academicBackground" name="academicBackground" required>Majoring in Software Engineering.</textarea><br>
+            <label for="academic-background">Academic Background:</label>
+            <textarea id="academicbackground" name="academic-background" required>Majoring in Software Engineering.</textarea>
+            <br>
 
-            <label for="webBackground">Background in Web Development:</label>
-            <textarea id="webBackground" name="webBackground" required>Self-taught HTML/CSS and JavaScript developer.</textarea><br>
+            <label for="web-background">Background in Web Development:</label>
+            <textarea id="webbackground" name="web-background" required>Self-taught HTML/CSS and JavaScript developer.</textarea>
+            <br>
 
             <label for="platform">Primary Computer Platform:</label>
-            <input type="text" id="platform" name="platform" value="Windows 11" required><br>
+            <input type="text" id="platform" name="platform" value="Windows 11" required>
+            <br>
 
             <label>Courses Currently Taking:</label>
             <div id="courses">
                 <input type="text" name="course[]" placeholder="Enter a course" required>
             </div>
-            <button type="button" id="addCourse">Add Course</button><br>
+            <button type="button" id="addcourse">Add Course</button>
+            <br>
 
-            <label for="funnyThing">Funny Thing:</label>
-            <textarea id="funnyThing" name="funnyThing">I love puns about time travel!</textarea><br>
+            <label for="funny-thing">Funny Thing:</label>
+            <textarea id="funnything" name="funny-thing">I love puns about time travel!</textarea>
+            <br>
 
-            <label for="anythingElse">Anything Else?</label>
-            <textarea id="anythingElse" name="anythingElse"></textarea><br>
+            <label for="anything-else">Anything Else?</label>
+            <textarea id="anythingelse" name="anything-else"></textarea>
+            <br>
 
             <label for="agreement">
                 <input type="checkbox" id="agreement" name="agreement" required>
                 I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.
-            </label><br>
+            </label>
+            <br>
 
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
@@ -71,5 +86,6 @@
 
   
     <footer id="footer-placeholder"></footer>
+    <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>

@@ -135,3 +135,58 @@ hr {
     margin: 20px auto;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 95%; /* Slightly narrower for smaller screens */
+        padding: 15px; /* Adjust padding to avoid crowding */
+        box-sizing: border-box; /* Added to fix accumulus error */
+    }
+
+    body {
+        font-size: 14px; /* Smaller font for compact screens */
+    }
+
+    nav {
+        flex-direction: column; /* Stack navigation items vertically */
+        gap: 5px; /* Reduce gap between items */
+    }
+
+    header, footer {
+        text-align: center; /* Center header and footer content */
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 980px) {
+    main {
+        width: 90%; /* Slightly wider for tablets */
+        padding: 20px; /* Add more padding for readability */
+        box-sizing: border-box; /* Added to fix accumulus error */
+    }
+
+    nav {
+        justify-content: space-between; /* Space navigation items evenly */
+    }
+
+    header, footer {
+        padding: 15px; /* Add more space around content */
+    }
+}
+
+
+@media screen and (min-width: 981px) and (max-width: 1400px) {
+    main {
+        width: 85%; /* Slightly reduce width for larger screens */
+        padding: 25px; /* Maintain proportional spacing */
+        box-sizing: border-box; /* Added to fix accumulus error */
+    }
+
+    body {
+        font-size: 16px; /* Standard font size for readability */
+    }
+
+    nav {
+        gap: 15px; /* Adjust navigation gap for spacing */
+    }
+}

@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const form = document.getElementById("introForm");
+    const form = document.getElementById("introform");
     const output = document.getElementById("output");
     const coursesDiv = document.getElementById("courses");
-    const addCourseButton = document.getElementById("addCourse");
+    const addCourseButton = document.getElementById("addcourse");
 
     // Add Course Functionality
     addCourseButton.addEventListener("click", () => {

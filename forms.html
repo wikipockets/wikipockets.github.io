@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Johnson Forms</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header id="header-placeholder"></header>
+    <main>
+        <section class="container main-content">
+            <h2>Forms</h2>
+           
+            <hr>
+            
+                <form>
+                    <label for="user-name">Full Name</label>
+                    <input type="text" id="user-name" name="user-name" placeholder="Enter your full name" required=""><br>
+                
+                    <label for="user-email">Contact Email</label>
+                    <input type="email" id="user-email" name="user-email" placeholder="Enter your email" required="" data-ddg-autofill="true"><br>
+                
+                    <label for="user-phone">Contact Number</label>
+                    <input type="number" id="user-phone" name="user-phone" placeholder="Enter your phone number"><br>
+                
+                    <label>What type of content are you interested in?</label><br>
+                
+                    <label for="technology">Technology</label>
+                    <input type="checkbox" id="technology" name="content-type">
+                
+                    <label for="science">Science</label>
+                    <input type="checkbox" id="science" name="content-type">
+                
+                    <label for="history">History</label>
+                    <input type="checkbox" id="history" name="content-type">
+                
+                    <label for="art">Art</label>
+                    <input type="checkbox" id="art" name="content-type">
+                
+                    <label for="literature">Literature</label>
+                    <input type="checkbox" id="literature" name="content-type">
+                
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" id="sports" name="content-type"><br>
+                
+                    <label>Would you like to join our newsletter?</label><br>
+                
+                    <label for="opt-in-yes">Yes</label>
+                    <input type="radio" id="opt-in-yes" name="newsletter" checked="">
+                
+                    <label for="opt-in-no">No</label>
+                    <input type="radio" id="opt-in-no" name="newsletter"><br>
+                
+                    <label for="platform">Preferred Learning Medium</label>
+                    <select name="platform" id="platform" size="3">
+                        <option value="online">Online Courses</option>
+                        <option value="in-person">In-Person Workshops</option>
+                        <option value="webinars">Webinars</option>
+                    </select><br>
+                
+                    <input type="reset" id="reset-btn" name="reset-btn"><br>
+                    <input type="submit" value="Submit">
+                </form>
+                
+        </section>
+    </main>
+    <footer id="footer-placeholder"></footer>
+
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/HTMLInclude.min.js"></script>
+</body>
+</html>
